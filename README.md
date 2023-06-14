@@ -14,7 +14,7 @@ As instruções a seguir vão adicionar uma cópia do projeto na sua máquina lo
 ```
 GIT
 Servidor WEB
-PHP 7.3
+PHP 7.3 || 8.0
 MySQL
 Composer (https://getcomposer.org/)
 Laravel 6.x
@@ -25,17 +25,17 @@ Laravel 6.x
 - Primeiramente é necessária uma base de dados, para isso é preciso criar uma:
 
 ```
-CREATE DATABASE medmazza;
-GRANT ALL PRIVILEGES ON medmazza . * TO 'seu_usuario'@'localhost';
+CREATE DATABASE consutazo;
+GRANT ALL PRIVILEGES ON consutazo . * TO 'seu_usuario'@'localhost';
 ```
 
 - Clone o projeto para sua máquina (coloque na pasta do seu servidor WEB):
 
 ```
-git clone https://github.com/eduardoplnascimento/medmazza.git
+git clone https://github.com/Wiuver-Ribeiro/consutazo.git
 ```
 
-- Entre no diretório **medmazza**.
+- Entre no diretório **consutazo**.
 - Copie o arquivo .env.example e nomeie .env:
 
 ```
@@ -86,7 +86,7 @@ php artisan serve
 
 - Acessando a URL do projeto, você será direcionado para a *landing page*, onde existem algumas informações sobre o consultório médico e a plataforma de agendamento.
 
-![](https://i.imgur.com/H1RqkLv.png)
+![](https://ibb.co/6Jvdrf3)
 
 - A partir dessa página é possível fazer o *login* ou cadastrar-se. Caso queira acessar a plataforma como administrador e o comando de seed foi rodado, é possível com o email **admin@teste.com** e senha **123456**.
 
