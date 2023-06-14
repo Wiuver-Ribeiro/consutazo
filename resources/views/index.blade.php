@@ -13,7 +13,7 @@
     <link rel="icon" href="{{ asset('img/landing/favicon.png') }}">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="{{ asset('css/landing/bootstrap.min.css') }}">
-    <!-- animate CSS -->
+    <!-- animate https://i.postimg.cc/Mpwxs6Pk/02.pngCSS -->
     <link rel="stylesheet" href="{{ asset('css/landing/animate.css') }}">
     <!-- owl carousel CSS -->
     <link rel="stylesheet" href="{{ asset('css/landing/owl.carousel.min.css') }}">
@@ -60,7 +60,7 @@
                                     <a class="nav-link" href="#services">Serviços</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#doctors">Psícologos</a>
+                                    <a class="nav-link" href="#doctors">Psicólogos</a>
                                 </li>
                             </ul>
                         </div>
@@ -81,7 +81,7 @@
                     <div class="banner_text">
                         <div class="banner_text_iner">
                             <h5>Estamos aqui para você</h5>
-                            <h1>Melhores Psícologos</h1>
+                            <h1>Melhores Psicólogos</h1>
                             <p>Aqui na Consutazo você encontra os melhores profissionais da região,
                                 com um atendimento diferenciado e um agendamento muito fácil.</p>
                             <a href="{{ route('login') }}" class="btn_2">Agende sua consulta</a>

@@ -21,7 +21,7 @@
                 </li>
                 @if ($user->type !== 'doctor')
                     <li data-username="Doctors" class="nav-item @yield('sidebar_doctors')">
-                        <a href="{{ route('doctors.index') }}" class="nav-link "><span class="pcoded-micon"><i class="feather icon-users"></i></span><span class="pcoded-mtext">Médicos</span></a>
+                        <a href="{{ route('doctors.index') }}" class="nav-link "><span class="pcoded-micon"><i class="feather icon-users"></i></span><span class="pcoded-mtext">Psicólogos</span></a>
                     </li>
                 @endif
                 @if ($user->type === 'admin')

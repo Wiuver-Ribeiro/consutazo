@@ -1,11 +1,8 @@
 # Consutazo
-> Agendamento de consultas médicas online.
+> Agendamento de consultas psicólogo online.
 
 ![](https://i.imgur.com/KbHcORs.png)
 
-## Começando
-
-As instruções a seguir vão adicionar uma cópia do projeto na sua máquina local para testes e desenvolvimento.
 
 ### Pré-requisitos
 
@@ -84,9 +81,9 @@ php artisan serve
 
 ## Utilização
 
-- Acessando a URL do projeto, você será direcionado para a *landing page*, onde existem algumas informações sobre o consultório médico e a plataforma de agendamento.
+- Acessando a URL do projeto, você será direcionado para a *landing page*, onde existem algumas informações sobre o consultório psicólogo e a plataforma de agendamento.
 
-![](https://ibb.co/6Jvdrf3)
+![](https://i.postimg.cc/SQ5xGpbq/01.png)
 
 - A partir dessa página é possível fazer o *login* ou cadastrar-se. Caso queira acessar a plataforma como administrador e o comando de seed foi rodado, é possível com o email **admin@teste.com** e senha **123456**.
 
@@ -98,12 +95,12 @@ Como adminitrador dentro da plataforma, é possível:
 
 - Confirmar agendamentos solicitados por pacientes na aba **Dashboard**;
 - Agendar consultas para todos os pacientes na aba **Agendamentos**;
-- Criar, editar e remover médicos na aba **Médicos**;
+- Criar, editar e remover Psicólogo na aba **Psicólogo**;
 - Criar, editar e remover pacientes na aba **Pacientes**;
 - Criar e remover administradores na aba **Administradores**;
 - Alterar as informações do perfil na aba **Configurações**.
 
-![](https://i.imgur.com/XYu78CF.png)
+![](https://i.postimg.cc/Mpwxs6Pk/02.png)
 
 ### Paciente
 
@@ -111,18 +108,18 @@ Como paciente dentro da plataforma, é possível:
 
 - Ver últimos agendamentos solicitados, confirmados e cancelador na aba **Dashboard**;
 - Solicitar agendamentos de consultas na aba **Agendamentos**;
-- Solicitar agendamentos de consultas por médico na aba **Médicos**;
+- Solicitar agendamentos de consultas por médico na aba **Psicólogo**;
 - Alterar as informações do perfil na aba **Configurações**.
 
-![](https://i.imgur.com/azEluok.png)
+![](https://i.postimg.cc/wx0gWYK3/03.png)
 
-### Médico
+### Psicólogo
 
-Como médico dentro da plataforma, é possível:
+Como psicólogo dentro da plataforma, é possível:
 
 - Ver próximas consultadas agendadas por pacientes na aba **Dashboard**;
 - Ver agendamentos de consultas na aba **Agendamentos**;
 - Alterar as informações do perfil na aba **Configurações**.
 
-![](https://i.imgur.com/mjQ7ihm.png)
+![](https://i.postimg.cc/rmf39cdk/04.png)
 
